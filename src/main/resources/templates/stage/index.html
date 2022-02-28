@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>在线考试系统学生首页</title>
+    <!-- Bootstrap core CSS -->
+    <link href="#" th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.min.css}" rel="stylesheet">
+
+    <link th:href="@{/assets/css/sfks-weixin.css}" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- 学生首页头部 -->
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+            <a class="navbar-brand" href="#">在线考试管理系统>>试题答卷</a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto"></ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <a class="btn btn-warning mr-sm-2" role="button"
+                       th:text="${session.loger.getStudentAccount()}" th:href="@{/}"></a>
+                    <a class="btn btn-info mr-sm-2" role="button" th:href="@{/index}">首页</a>
+                    <a class="btn btn-outline-success my-sm-0" role="button" th:href="@{/logout}">退出系统</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 学生首页主体部分 -->
+    <div class="cmain">
+        <ul class="examtype_list">
+            <li>
+                <a th:href="@{/exam/toExam}">
+                    <span class="imgicon examptype1"></span>
+                    <p>在线考试</p>
+                </a>
+            </li>
+            <li>
+                <a th:href="@{/exam/toHist/}+${session.loger.studentId}">
+                    <span class="imgicon examptype2"></span>
+                    <p>考试记录</p>
+                </a>
+            </li>
+            <li>
+                <a th:href="@{/exam/toExam}">
+                    <span class="imgicon examptype3"></span>
+                    <p>在线考试</p>
+                </a>
+            </li>
+            <li>
+                <a th:href="@{/exam/toHist/}+${session.loger.studentId}">
+                    <span class="imgicon examptype4"></span>
+                    <p>考试记录</p>
+                </a>
+            </li>
+            <li>
+                <a th:href="@{/exam/toExam}">
+                    <span class="imgicon examptype6"></span>
+                    <p>在线考试</p>
+                </a>
+            </li>
+            <li>
+                <a th:href="@{/exam/toHist/}+${session.loger.studentId}">
+                    <span class="imgicon examptype5"></span>
+                    <p>考试记录</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>

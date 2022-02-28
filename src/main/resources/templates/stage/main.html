@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>在线考试系统后台首页</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+          name='viewport'/>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.css}">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" th:href="@{/assets/css/ready.css}">
+    <link rel="stylesheet" th:href="@{/assets/css/demo.css}">
+</head>
+
+<body>
+<div class="wrapper">
+
+    <!-- 首页 -->
+    <div th:replace="commons/bar::header"></div>
+
+    <!-- 侧边栏 -->
+    <div th:replace="commons/bar::#sidebar"></div>
+
+    <!-- 公告部分 -->
+    <div class="main-panel">
+        <main class="container" style="padding-top: 200px; padding-left: 150px">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title">公告一</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">这里是公告</p>
+                            <a href="#" class="btn btn-primary">了解详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title">公告二</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">这里是公告</p>
+                            <a href="#" class="btn btn-primary">了解详情</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</div>
+
+<!--映入jquery，src-->
+<script th:src="@{/webjars/jquery/3.2.1/jquery.js}"></script>
+<script th:src="@{/webjars/layer/src/layer.js}"></script>
+<script>
+
+</script>
+</body>
+</html>

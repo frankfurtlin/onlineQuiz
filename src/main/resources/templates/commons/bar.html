@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>公共页面抽取</title>
+    <link href="#" th:href="@{/webjars/bootstrap/4.0.0/css/bootstrap.min.css}" rel="stylesheet">
+</head>
+<body>
+
+<!--header-->
+<div class="main-header" th:fragment="header">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" th:href="@{/main}">在线考试管理系统>>后台首页</a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto"></ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <a class="btn btn-warning mr-sm-2" role="button"
+                   th:text="${session.logerd.getTeacherAccount()}" th:href="@{/main}"></a>
+                <a class="btn btn-info mr-sm-2" role="button" th:href="@{/main}">首页</a>
+                <a class="btn btn-outline-success my-sm-0" role="button" th:href="@{/logout}">退出系统</a>
+            </form>
+        </div>
+    </nav>
+</div>
+
+<!--slidebar-->
+<div class="sidebar" id="sidebar">
+    <div class="scrollbar-inner sidebar-wrapper">
+        <div class="user">
+            <div class="photo">
+            </div>
+            <div class="info">
+                <a class="" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
+                </a>
+            </div>
+        </div>
+        <ul class="nav">
+            <li class="nav-item" th:class="${activeUri=='/student/getAllStudent'?'nav-item active':'nav-item'}">
+                <a class="nav-link active" href="#" th:href="@{/student/getAllStudent}">
+                    <i class="la la-child"></i>
+                    <p>学生管理</p>
+                </a>
+            </li>
+            <li class="nav-item" th:class="${activeUri=='/teacher/getAllTeacher'?'nav-item active':'nav-item'}">
+                <a class="nav-link" href="#" th:href="@{/teacher/getAllTeacher}">
+                    <i class="la la-male"></i>
+                    <p>教师管理</p>
+                </a>
+            </li>
+            <li class="nav-item" th:class="${activeUri=='/classe/getAllClasse'?'nav-item active':'nav-item'}">
+                <a class="nav-link" href="#" th:href="@{/classe/getAllClasse}">
+                    <i class="la la-th-large"></i>
+                    <p>班级管理</p>
+                </a>
+            </li>
+            <li class="nav-item" th:class="${activeUri=='/question/getAllQuestion'?'nav-item active':'nav-item'}">
+                <a class="nav-link" href="#" th:href="@{/question/getAllQuestion}">
+                    <i class="la la-subscript"></i>
+                    <p>试题管理</p>
+                </a>
+            </li>
+            <li class="nav-item" th:class="${activeUri=='/paper/getAllPaper'?'nav-item active':'nav-item'}">
+                <a class="nav-link" href="#" th:href="@{/paper/getAllPaper}">
+                    <i class="la la-th"></i>
+                    <p>试卷管理</p>
+                </a>
+            </li>
+            <li class="nav-item" th:class="${activeUri=='/exam/getAllExam'?'nav-item active':'nav-item'}">
+                <a class="nav-link" href="#" th:href="@{/exam/getAllExam}">
+                    <i class="la la-map"></i>
+                    <p>考试管理</p>
+                </a>
+            </li>
+            <li class="nav-item" th:class="${activeUri=='/record/getAllRecord'?'nav-item active':'nav-item'}">
+                <a class="nav-link" href="#" th:href="@{/record/getAllRecord}">
+                    <i class="la la-sitemap"></i>
+                    <p>记录管理</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

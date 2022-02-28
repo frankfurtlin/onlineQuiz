@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f42664d0-4a61-4dfb-a28a-bedb9f750f3a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="onlineQuiz" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.8.4\maven_repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qHF3iAMou2lL8nbsaA87d3Q2B6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/assets/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA\onlineQuiz\src\main\resources\templates\stage" />
+      <recent name="E:\IDEA\onlineQuiz\src\main\resources\templates\teacher" />
+      <recent name="E:\IDEA\onlineQuiz\src\main\resources\templates\student" />
+      <recent name="E:\IDEA\onlineQuiz\src\main\resources\static\assets\img" />
+      <recent name="E:\IDEA\onlineQuiz\src\main\resources\static\assets\fonts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\onlineQuiz\src\main\resources\static\assets\img" />
+      <recent name="E:\IDEA\onlineQuiz\src\main\resources\static\assets\css" />
+      <recent name="E:\IDEA\onlineQuiz\src\main\resources\templates\stage" />
+      <recent name="E:\IDEA\onlineQuiz\src\test\java\com\frankfurtlin\onlineQuiz" />
+      <recent name="E:\IDEA\onlineQuiz\src\main\java\com\frankfurtlin\onlineQuiz" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="QuizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="onlineQuiz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.frankfurtlin.onlineQuiz.QuizApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_INTERFACES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f42664d0-4a61-4dfb-a28a-bedb9f750f3a" name="Default Changelist" comment="" />
+      <created>1616728411475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616728411475</updated>
+      <workItem from="1616728415751" duration="3090000" />
+      <workItem from="1616731558684" duration="2950000" />
+      <workItem from="1617084189346" duration="5528000" />
+      <workItem from="1617258252851" duration="6621000" />
+      <workItem from="1617275046970" duration="9505000" />
+      <workItem from="1617368554597" duration="2399000" />
+      <workItem from="1617416223723" duration="5497000" />
+      <workItem from="1617426664483" duration="12038000" />
+      <workItem from="1617441633019" duration="56000" />
+      <workItem from="1617448248362" duration="2612000" />
+      <workItem from="1617512610454" duration="2446000" />
+      <workItem from="1617515372600" duration="14151000" />
+      <workItem from="1617595787051" duration="11034000" />
+      <workItem from="1617607953126" duration="6416000" />
+      <workItem from="1617682932460" duration="6837000" />
+      <workItem from="1617689851120" duration="10472000" />
+      <workItem from="1617765841026" duration="4414000" />
+      <workItem from="1617770318828" duration="3631000" />
+      <workItem from="1617774109119" duration="1696000" />
+      <workItem from="1617775871594" duration="801000" />
+      <workItem from="1618151812797" duration="1079000" />
+      <workItem from="1618198085588" duration="3781000" />
+      <workItem from="1618270384779" duration="2351000" />
+      <workItem from="1618310113097" duration="980000" />
+      <workItem from="1618311557283" duration="834000" />
+      <workItem from="1618376045699" duration="11389000" />
+      <workItem from="1618397559022" duration="7226000" />
+      <workItem from="1618755060930" duration="1535000" />
+      <workItem from="1618923256045" duration="630000" />
+      <workItem from="1619152827141" duration="116000" />
+      <workItem from="1620034408576" duration="635000" />
+      <workItem from="1620372426048" duration="18066000" />
+      <workItem from="1620431262442" duration="15349000" />
+      <workItem from="1620700464202" duration="5272000" />
+      <workItem from="1621220989297" duration="350000" />
+      <workItem from="1621222085083" duration="724000" />
+      <workItem from="1645876288185" duration="1216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="293" y="66" key="FileChooserDialogImpl" timestamp="1645877383586">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="293" y="66" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1645877383586" />
+    <state width="1483" height="209" key="GridCell.Tab.0.bottom" timestamp="1645877594541">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1483" height="209" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1645877594541" />
+    <state width="1483" height="209" key="GridCell.Tab.0.center" timestamp="1645877594541">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1483" height="209" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1645877594541" />
+    <state width="1483" height="209" key="GridCell.Tab.0.left" timestamp="1645877594541">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1483" height="209" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1645877594541" />
+    <state width="1483" height="209" key="GridCell.Tab.0.right" timestamp="1645877594541">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1483" height="209" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1645877594541" />
+    <state x="139" y="0" key="SettingsEditor" timestamp="1645877387187">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="139" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1645877387187" />
+  </component>
+</project>
